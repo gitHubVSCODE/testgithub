@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    font-family: "Montserrat";
+}
+
+
+
+body{
+    margin:  0 auto;
+}
+
+/* head of page */
+
+
+.head{
+    display: flex;
+    align-items: center;
+} 
+  
+.head img{
+    width: 150px;
+}
+
+
+.top-page{
+    background: url("images/bg.jpg");
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+
+/* page de bienvenue */
+
+in this video i gonna show you how to make a pong
+
+.landing-page h1{
+    color: white;
+    font-size: 70px; 
+    font-family: "Abrilface";
+}
+ 
+/* menu de nav */
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+.nav li{
+    color: white;
+}
